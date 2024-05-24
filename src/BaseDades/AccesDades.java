@@ -34,7 +34,7 @@ public class AccesDades {
         }
 
     }
-
+    
     public void altaBD(String nom, String dificultat, int intentsMAX, int intentsFETS) {
         try {
             if (this.conn != null) {
