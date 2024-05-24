@@ -105,7 +105,7 @@ public class JocVaixells_v01 {
         System.out.printf("\nTemps emprat: %dmin %ds", min, sec);
         mevaBD.connectarBD();
         if (taulers[posTauler].taulerAcabat() && taulers[posTauler].guanyat()) {
-            mevaBD.altaBD(taulers[posTauler].getNomJugador(), taulers[posTauler].getPatro(), taulers[posTauler].getIntents(), taulers[posTauler].getIntentActual()); 
+            //mevaBD.altaBD(taulers[posTauler].getNomJugador(), taulers[posTauler].getPatro(), taulers[posTauler].getIntents(), taulers[posTauler].getIntentActual()); 
             System.out.printf("\nEnhorabona! Has guanyat %s!!\n", taulers[posTauler].getNomJugador());
         } else if (taulers[posTauler].taulerAcabat() && !taulers[posTauler].guanyat()){
             System.out.printf("\nMala sort! Has perdut %s!!\n", taulers[posTauler].getNomJugador());
